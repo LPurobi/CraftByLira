@@ -1,0 +1,142 @@
+body{
+    background-image: url(../img/bg1.jpg);
+
+}
+
+
+
+header{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 15%;
+
+    /* height: 100px; */
+}
+
+header>a>img{
+    background-size: auto;
+    width: 100px;  
+}
+
+nav>ul{
+    display: flex;
+   
+}
+
+nav>ul>li{
+    list-style-type: none;
+    border: 1px solid green;
+    border-radius: 50%;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #f1cb88;
+    margin-left: 10px;
+}
+
+nav>ul>li>a{
+
+    color: rgb(63,142,139);
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+
+.btn{
+    background-color: aqua;
+    width: 80px;
+    height: 40px;
+    font-weight: bold;
+    border-radius: 25px;
+
+    
+}
+.cover{
+    background-color: #87a0aa;
+    border-radius: 25px;
+    display: flex;
+    justify-content:center;
+    margin: auto;
+    margin-top: 2em;
+    max-width: 70%;
+    position: relative;
+
+}
+
+.cover>img{
+    background-size: auto;
+    width: 80%; 
+    margin: 2em 2em;   
+} 
+
+h1{
+    position: absolute;
+    font-size: 43px;
+    margin-left:25%;
+    margin-top: 10%;
+    width: 50%;
+    
+
+} 
+ .products{
+     display: flex;
+     justify-content: center;
+     gap: 15px;
+     margin-top: 2em;
+
+ }
+
+.products>div{
+    background-color: #f1cb88;
+    opacity: .9;
+    border-radius: 25px;
+   
+
+  }
+  .items{
+    text-align: center;
+    padding: 10px;
+    width: 20%;
+    display: inline-block;
+    justify-content: center;
+    
+  }
+
+ .items>img{
+    background-repeat: no-repeat;
+    align-items: center; 
+      width: 70%; 
+      margin-top: 2em;
+    
+ }
+ .items>h2{
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+
+.vision{
+    border: 10px dotted green;
+    background-color: antiquewhite;
+    display: block; 
+    align-items: center;
+    margin: auto;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 2em;
+    color: #115457;
+    max-width: 70%;
+    font-size: x-large;
+ }
+
+ footer{
+     display: block;
+     justify-content: center;
+     text-align: center;
+     align-items: center;
+     color: #115457;
+     font-weight: bold;
+     
+ }
+
